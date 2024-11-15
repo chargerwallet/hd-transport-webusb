@@ -1,0 +1,29 @@
+{
+  "name": "@chargerwallet/hd-transport-webusb",
+  "version": "2.0.0",
+  "author": "ChargerWallet",
+  "homepage": "https://github.com/chargerwallet/hd-transport-webusb",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chargerwallet/hd-transport-webusb.git"
+  },
+  "scripts": {
+    "dev": "rimraf dist && rollup -c ../../build/rollup.config.js -w",
+    "build": "rimraf dist && rollup -c ../../build/rollup.config.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "hd-shared": "^2.0.0",
+    "hd-transport": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/w3c-web-usb": "^1.0.6"
+  }
+}
