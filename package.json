@@ -1,6 +1,6 @@
 {
   "name": "@chargerwallet/hd-transport-webusb",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "author": "ChargerWallet",
   "homepage": "https://github.com/chargerwallet/hardware-js-sdk#readme",
   "license": "MIT",
